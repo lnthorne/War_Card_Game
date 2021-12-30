@@ -86,7 +86,6 @@ player* gameControl::compareCards(player *p1, player *p2) {
             }
         }
     } else if (ourCard > otherCard) {
-        std::cout<< ourCard->getRank() << " ourCard\n" << otherCard->getRank() << " other card\n";
         winner = p1;
         winner->getHand()->addToHand(ourCard);
         winner->getHand()->addToHand(otherCard);
