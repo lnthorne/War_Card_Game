@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B51C0DB4277133910050A14D /* handModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B51C0DB2277133910050A14D /* handModel.cpp */; };
+		B58BD8EC276FE87200653757 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B58BD8DD276FCF2800653757 /* main.cpp */; };
+		B58BD8F2276FF93600653757 /* cardModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B58BD8F1276FF93600653757 /* cardModel.cpp */; };
+		B58BD8F4276FFB5100653757 /* deckModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B58BD8F3276FFB5100653757 /* deckModel.cpp */; };
+		B58BD8F6277000AF00653757 /* StandardDeck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B58BD8F5277000AF00653757 /* StandardDeck.cpp */; };
+		B58BD8F827700E5000653757 /* playerModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B58BD8F727700E5000653757 /* playerModel.cpp */; };
+		B58BD8FB2771294200653757 /* gameController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B58BD8FA2771294200653757 /* gameController.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B58BD8D8276FCF2800653757 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B51C0DB2277133910050A14D /* handModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = handModel.cpp; sourceTree = "<group>"; };
+		B51C0DB527713E840050A14D /* textView.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; name = textView.hpp; path = LiamWar/include/view/textView.hpp; sourceTree = SOURCE_ROOT; };
+		B51C0DB8277148120050A14D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text; name = Base; path = Base.lproj/warRules.txt; sourceTree = "<group>"; };
+		B51C0DBB277148E90050A14D /* rule.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = rule.rtf; sourceTree = "<group>"; };
+		B51C0DBC27715D7F0050A14D /* WarTitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = WarTitle.txt; path = ../../../WarTitle.txt; sourceTree = "<group>"; };
+		B58BD8DA276FCF2800653757 /* LiamWar */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LiamWar; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58BD8DD276FCF2800653757 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = LiamWar/src/game/main.cpp; sourceTree = SOURCE_ROOT; };
+		B58BD8EA276FD78C00653757 /* deckModel.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; name = deckModel.hpp; path = LiamWar/include/model/deckModel.hpp; sourceTree = SOURCE_ROOT; };
+		B58BD8EB276FDBB800653757 /* cardModel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cardModel.hpp; sourceTree = "<group>"; };
+		B58BD8ED276FE96900653757 /* playerModel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = playerModel.hpp; sourceTree = "<group>"; };
+		B58BD8EE276FEC5D00653757 /* handModel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = handModel.hpp; sourceTree = "<group>"; };
+		B58BD8EF276FEF8600653757 /* standardDeck.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = standardDeck.hpp; sourceTree = "<group>"; };
+		B58BD8F0276FF0ED00653757 /* npcPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = npcPlayer.h; sourceTree = "<group>"; };
+		B58BD8F1276FF93600653757 /* cardModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cardModel.cpp; sourceTree = "<group>"; };
+		B58BD8F3276FFB5100653757 /* deckModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = deckModel.cpp; sourceTree = "<group>"; };
+		B58BD8F5277000AF00653757 /* StandardDeck.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StandardDeck.cpp; sourceTree = "<group>"; };
+		B58BD8F727700E5000653757 /* playerModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = playerModel.cpp; sourceTree = "<group>"; };
+		B58BD8F92771275D00653757 /* gameController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = gameController.hpp; sourceTree = "<group>"; };
+		B58BD8FA2771294200653757 /* gameController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gameController.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B58BD8D7276FCF2800653757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B51C0DB6277143FD0050A14D /* fstream */ = {
+			isa = PBXGroup;
+			children = (
+				B51C0DBC27715D7F0050A14D /* WarTitle.txt */,
+				B51C0DB9277148120050A14D /* warRules.txt */,
+				B51C0DBB277148E90050A14D /* rule.rtf */,
+			);
+			path = fstream;
+			sourceTree = "<group>";
+		};
+		B58BD8D1276FCF2800653757 = {
+			isa = PBXGroup;
+			children = (
+				B58BD8DC276FCF2800653757 /* LiamWar */,
+				B58BD8DB276FCF2800653757 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B58BD8DB276FCF2800653757 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B58BD8DA276FCF2800653757 /* LiamWar */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B58BD8DC276FCF2800653757 /* LiamWar */ = {
+			isa = PBXGroup;
+			children = (
+				B51C0DB6277143FD0050A14D /* fstream */,
+				B58BD8E5276FD6C800653757 /* src */,
+				B58BD8E4276FD6B400653757 /* include */,
+			);
+			path = LiamWar;
+			sourceTree = "<group>";
+		};
+		B58BD8E4276FD6B400653757 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				B58BD8E8276FD71400653757 /* controller */,
+				B58BD8E7276FD70C00653757 /* view */,
+				B58BD8E6276FD6F700653757 /* model */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		B58BD8E5276FD6C800653757 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B58BD8E9276FD72800653757 /* game */,
+				B58BD8F1276FF93600653757 /* cardModel.cpp */,
+				B58BD8F3276FFB5100653757 /* deckModel.cpp */,
+				B58BD8F5277000AF00653757 /* StandardDeck.cpp */,
+				B58BD8F727700E5000653757 /* playerModel.cpp */,
+				B58BD8FA2771294200653757 /* gameController.cpp */,
+				B51C0DB2277133910050A14D /* handModel.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		B58BD8E6276FD6F700653757 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B58BD8EA276FD78C00653757 /* deckModel.hpp */,
+				B58BD8ED276FE96900653757 /* playerModel.hpp */,
+				B58BD8EB276FDBB800653757 /* cardModel.hpp */,
+				B58BD8EE276FEC5D00653757 /* handModel.hpp */,
+				B58BD8EF276FEF8600653757 /* standardDeck.hpp */,
+				B58BD8F0276FF0ED00653757 /* npcPlayer.h */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		B58BD8E7276FD70C00653757 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B51C0DB527713E840050A14D /* textView.hpp */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B58BD8E8276FD71400653757 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				B58BD8F92771275D00653757 /* gameController.hpp */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		B58BD8E9276FD72800653757 /* game */ = {
+			isa = PBXGroup;
+			children = (
+				B58BD8DD276FCF2800653757 /* main.cpp */,
+			);
+			path = game;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B58BD8D9276FCF2800653757 /* LiamWar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B58BD8E1276FCF2800653757 /* Build configuration list for PBXNativeTarget "LiamWar" */;
+			buildPhases = (
+				B58BD8D6276FCF2800653757 /* Sources */,
+				B58BD8D7276FCF2800653757 /* Frameworks */,
+				B58BD8D8276FCF2800653757 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiamWar;
+			productName = LiamWar;
+			productReference = B58BD8DA276FCF2800653757 /* LiamWar */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B58BD8D2276FCF2800653757 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					B58BD8D9276FCF2800653757 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B58BD8D5276FCF2800653757 /* Build configuration list for PBXProject "LiamWar" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B58BD8D1276FCF2800653757;
+			productRefGroup = B58BD8DB276FCF2800653757 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B58BD8D9276FCF2800653757 /* LiamWar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B58BD8D6276FCF2800653757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58BD8EC276FE87200653757 /* main.cpp in Sources */,
+				B58BD8FB2771294200653757 /* gameController.cpp in Sources */,
+				B58BD8F6277000AF00653757 /* StandardDeck.cpp in Sources */,
+				B51C0DB4277133910050A14D /* handModel.cpp in Sources */,
+				B58BD8F827700E5000653757 /* playerModel.cpp in Sources */,
+				B58BD8F4276FFB5100653757 /* deckModel.cpp in Sources */,
+				B58BD8F2276FF93600653757 /* cardModel.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B51C0DB9277148120050A14D /* warRules.txt */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B51C0DB8277148120050A14D /* Base */,
+			);
+			name = warRules.txt;
+			path = ../../..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B58BD8DF276FCF2800653757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B58BD8E0276FCF2800653757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B58BD8E2276FCF2800653757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B58BD8E3276FCF2800653757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B58BD8D5276FCF2800653757 /* Build configuration list for PBXProject "LiamWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58BD8DF276FCF2800653757 /* Debug */,
+				B58BD8E0276FCF2800653757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B58BD8E1276FCF2800653757 /* Build configuration list for PBXNativeTarget "LiamWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58BD8E2276FCF2800653757 /* Debug */,
+				B58BD8E3276FCF2800653757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B58BD8D2276FCF2800653757 /* Project object */;
+}
